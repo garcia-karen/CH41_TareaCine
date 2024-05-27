@@ -1,0 +1,119 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.datos-entradas{
+    background-color: #f7f8fb;
+}
+
+.cine-plus{
+    color: rgb(6, 6, 6);
+    text-shadow: rgb(244, 242, 242) 5px 2px 4px;
+    font-size: xx-large;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 3rem;
+
+}
+.header {
+    background: linear-gradient(to bottom right, #153448, #91b5cd);
+    position: fixed;
+    width: 99%;
+    margin: 0 auto;
+    z-index: 2;
+    border-radius: 10px;
+    box-sizing: border-box;
+      
+}
+
+.header nav{
+    height: 10px;
+    background-color:  whitesmoke;
+    text-align: center;
+    padding: 20px;
+    word-spacing: 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    
+}
+a:hover{
+    /*
+    Opciones:
+    background-color: #f03030;
+    border: 2px solid black;
+*/
+    background-color: #f03030;
+    
+    border-radius: 5px;
+    padding: 10px;
+}
+a:active{
+    /*Opciones
+    color: whitesmoke; Solo si de coloca el background-color en el hover
+    color: #f03030;*/
+    color: whitesmoke; /*Solo si de coloca el background-color en el hover*/
+}
+
+.horarios{
+    text-align: center;
+    position: relative;
+    margin: 230px auto 20px auto;
+    
+}
+.horarios table{
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+}
+
+.horarios th, .horarios td {
+    border: 1px solid #ddd; /* Bordes sutiles para las celdas */
+    padding: 8px 12px; /* Espaciado interno para el contenido de las celdas */
+    text-align: left; /* Alineación del texto a la izquierda */
+}
+
+.horarios th {
+    background-color: #f8f8f8; /* Color de fondo para las cabeceras */
+    color: #333; /* Color del texto oscuro para contraste */
+}
+
+.horarios tr:hover {
+    background-color: #e8e8e8; /* Color de fondo al pasar el ratón */
+}
+
+/* Empieza el css para el grid */
+.estrenos{
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 10px;
+    padding: 35px;
+    margin: 0 auto;
+    align-items: center;
+    background: linear-gradient(to bottom right, #153448, #91b5cd);
+}
+.uno{
+    /*Bordes y alineación*/
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 10px;
+    height: 700px;
+    padding: 1.5rem;
+    background-color: whitesmoke;
+}
+
+.descripcion p{
+    text-align: justify;
+    /*overflow-y: scroll;*/
+}
+
+.img-pel{
+    margin: 6px auto;
+    width: 45%;
+}
+
+.img-vid iframe{
+    width: 70%;
+}
+/* Termina el css para el grid */
